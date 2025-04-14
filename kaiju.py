@@ -2,12 +2,12 @@
 
 import random
 
-# Kaiju name syllables
+# Syllables that will be used to generate the name of the kaiju by comining one from each list
 syllables1 = ["Giga", "Mega", "Ultra", "Zilla", "Kor", "Kaiju", "Titan", "Dino"]
 syllables2 = ["tro", "zi", "do", "ra", "gon"]
 syllables3 = ["-X", " Prime", " Omega", " Ultimus", " King"]
 
-# Body descriptions with animal/material references
+# Body descriptions for the kaiju
 body_descriptions = [
     "a six-legged shark with metal armor and goat horns",
     "a snake with a wolf's head, bird wings, and nine scorpion tails",
@@ -23,13 +23,13 @@ body_descriptions = [
     "a dragonfly fused with sapphire scales and crab claws"
 ]
 
-# Color list
-colors = ["red", "blue", "black", "white", "green", "purple", "orange", "silver", "gold", "crimson"]
+# The colors for the kaiju
+colors = ["black", "silver", "white", "red", "orange", "gold", "yellow", "green", "turquoise", "blue", "purple", "pink"]
 
-# Rage ranks
+# The rage ranks for the kaiju. S = the highest rank. E = the lowest rank
 rage_ranks = ["S", "A", "B", "C", "D", "E"]
 
-# Game introduction
+# Game start
 print("Welcome to the Kaiju Generator Service!")
 print("Here, you can generate and purchase your own Kaiju to destroy planets and armies.")
 input("Press Enter to generate your Kaiju...")
@@ -47,7 +47,7 @@ color_count = random.choice([1, 2])
 kaiju_colors = random.sample(colors, color_count)
 kaiju_color_description = " and ".join(kaiju_colors)
 
-# Display the generated Kaiju
+# Show the generated Kaiju
 print("\nYour Kaiju has been generated!")
 print(f"Name: {kaiju_name}")
 print(f"Size: {kaiju_size} meters high")
