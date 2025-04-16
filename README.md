@@ -1,5 +1,5 @@
 <body>
-<img src=";" />
+<img src="./assets/img_1.png" alt="kaiju1" style="width: 100%; border-radius: 12px; margin-bottom: 20px;" />
 
 <h1>🦖Kaiju Generator – Project 4 of The Code Fool's Journey</h1>
 
@@ -33,7 +33,7 @@
 <h1>Feel Free to Fork the Journey</h1>
 <p>If you find this helpful for learning or teaching, you're welcome to fork, improve, or remix it in your own way. The Fool’s path is yours to walk — and code — however you like.😊</p>
 
-<img src=";" />
+<img src="./assets/img_2.png" alt="kaiju2" style="width: 100%; border-radius: 12px; margin-bottom: 20px;" />
 
 </body>
 
